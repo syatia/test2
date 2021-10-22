@@ -1,0 +1,382 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+@media screen and (min-width: 200px) and (max-width: 3000px) {
+    .bloc {
+      display:block;
+      clear:both;
+    }
+    .ullanding{
+        display:block;
+      clear:both;
+    }
+
+    .mail{
+        
+        display:block;
+      clear:both;
+    }
+    ul li{
+        display: none;
+        display: block;
+    }
+
+    .grey{
+        display:block;
+      clear:both;
+    }
+    .color{
+        display:block;
+      clear:both;
+    }
+
+    .grid-container{
+        display:block;
+      clear:both;
+    }
+    .grid-container2{
+        display:block;
+      clear:both;
+    }
+  }
+/* génaral*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ullanding{
+    float: right;
+    color: white;
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+}
+.lilanding{
+    margin-left: 30px;
+  
+    margin-right: 20px;
+}
+.h1land {
+    color: white;
+    font-size: 5em;
+    margin-left: 230px;
+    position: absolute;
+    top: 60%;
+}
+.h2land{
+    color: white;
+    font-size: 2em;
+    margin-left: 230px;
+    position: absolute;
+    top: 97%;
+}
+.video{
+    background-color: rgb(255, 255, 255 ,0.0);
+    color: white;
+    font-size: 2em;
+    margin-left: 80px;
+    position: absolute;
+    top: 106%;
+    border: solid white thin;
+    font-weight: thin;
+    
+}
+/*      landing        */
+.container{
+  
+    width: 100%;
+}
+.landing{
+    color: white;
+   
+    
+    width: 100%;
+   height: 1000px;
+
+    
+  
+    background-image: url("asset/aralandingbis1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.brand{
+    margin-top: 0;
+    height: 170px;
+    width: 170px;
+  
+}
+.mail{
+    background-color: #ffc853 ;
+    height: 50px;
+    color: black;
+    
+}
+ul{
+    padding-top: 20px;
+    display: flex;
+    list-style: none;
+}
+li{
+    margin-left: 100px;
+}
+
+.inputmail{
+    border-bottom: solid black 1px;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
+   background-color: #ffc853;
+   
+   margin-left: 200px;
+   color: black;
+
+}
+
+#place::placeholder{
+    color: black;
+}
+
+.grey{
+   height: 905px;
+    width: 100%;
+    display: flex;
+    position: relative;
+ 
+}
+.leftside{
+    
+    height: 600px;
+    width: 50%;
+    background-color:#f2f2f2 ;
+    margin-bottom: 0;
+  
+
+
+}
+
+.h2grey{
+   padding: 150px;
+   font-weight: bold;
+   font-size: 3em;
+}
+
+.phone{
+    
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+.rightside{
+    width: 50%;
+}
+
+.color{
+   
+    height: 55%;
+    
+   display: flex;
+
+   
+    
+    
+    
+   
+}
+
+.blue{
+    background-color: #6bd3cc;
+    width: 50%;
+    
+}
+
+.red{
+width: 50%;
+background-color: #ff4f42;
+
+}
+.lorem{
+    padding-top: 50%;
+}
+
+.grid-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+
+}
+
+.item-grid1{
+ 
+
+}
+
+.item-grid2{
+
+    background-color:#f2f2f2 ;
+
+    padding-top: 20%;
+    
+}
+
+.item-grid3{
+    background-color:#f2f2f2 ;
+
+    padding-top: 20% ;
+}
+
+.item-grid4{
+    
+}
+
+.phone2 , .phone3{
+    height: 100%;
+
+    width: 100%;
+}
+
+.layout{
+   text-align: center;
+   padding-left: 20px;
+}
+
+.build{
+    height: 160PX;
+    width: 100%;
+    background-color: #6bd3cc;
+}
+
+.h2b{
+    font-size: 2em;
+    padding-top: 70px;
+}
+
+
+.grid-container2{
+    height: 500px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+
+
+}
+
+.itembis1{
+    background-color:#f2f2f2 ;
+
+    padding-top: 20%;
+}
+
+.itembis2{
+    
+}
+
+.itembis3{
+    
+}
+
+.itembis4{
+    background-color:#f2f2f2 ;
+
+    padding-top: 20%;
+        
+    
+    
+}
+
+.itembis5{
+    background-color:#f2f2f2 ;
+
+    padding-top: 20%;
+}
+
+
+.phone4{
+    height: 100%;
+
+    width: 100%;
+}
+
+
+.formul{
+    height: 600px;
+    width: 200%;
+    
+    background-color: #ffc853;
+
+    
+}
+
+table{
+    width: 85%;
+    margin-top: 60px;
+    height: 200px;
+    margin-left: 120px;
+}
+
+#firstname::placeholder{
+    background-color: transparent;
+    color: black;
+}
+#lastname::placeholder{
+    background-color: transparent;
+    color: black;
+
+}
+#email::placeholder{
+    background-color: transparent;
+    color: black;
+}
+#phone::placeholder{
+    background-color: transparent;
+    color: black;
+}
+#interest::placeholder{
+    background-color: transparent;
+    color: black;
+}
+#module::placeholder{
+    background-color: transparent;
+    color: black;
+}
+#role::placeholder{
+    background-color: transparent;
+    color: black;
+}
+
+#tell::placeholder{
+    background-color: transparent;
+    color: black;
+}
+
+input{
+    border-bottom: solid black 1px;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
+   background-color: transparent;
+}
